@@ -14,10 +14,14 @@ Import script `dist`
 
 Lalu pakai tag `<aksara-jawa>` di dokument HTML
 
-```
+```html
 <aksara-jawa latin="saksi mata"/>
 ```
+akan menghasilkan dokumen seperti berikut
 
+```html
+<span>ꦱꦏ꧀ꦱꦶ​ꦩꦠ</span>
+```
 ---
 
 MIT © 2020, Sajen.id
