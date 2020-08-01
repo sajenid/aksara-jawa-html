@@ -20,7 +20,7 @@ Anda bisa memakai paket terkini dari kustom tag ini melalui CDN seperti jsDelive
 Atau untuk instalasi paket dengan versi yang spesifik misalnya `1.0.0-beta`
 
 ```html
-<script defer src="https://cdn.jsdelivr.net/gh/sajenid/aksara-jawa-html@1.0.1/dist/index.mjs"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/sajenid/aksara-jawa-html@1.0.0-beta/dist/index.mjs"></script>
 
 ```
 ## Penggunaan
