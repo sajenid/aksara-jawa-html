@@ -1465,7 +1465,7 @@
 
     function create_fragment(ctx) {
     	let span;
-    	let t0_value = LatinKeAksara(/*tutur*/ ctx[0]) + "";
+    	let t0_value = LatinKeAksara(/*latin*/ ctx[0]) + "";
     	let t0;
     	let t1;
     	let slot;
@@ -1485,7 +1485,7 @@
     			insert(target, slot, anchor);
     		},
     		p(ctx, [dirty]) {
-    			if (dirty & /*tutur*/ 1 && t0_value !== (t0_value = LatinKeAksara(/*tutur*/ ctx[0]) + "")) set_data(t0, t0_value);
+    			if (dirty & /*latin*/ 1 && t0_value !== (t0_value = LatinKeAksara(/*latin*/ ctx[0]) + "")) set_data(t0, t0_value);
     		},
     		i: noop,
     		o: noop,
@@ -1498,19 +1498,19 @@
     }
 
     function instance($$self, $$props, $$invalidate) {
-    	let { tutur = "Aksara HTML" } = $$props;
+    	let { latin = "Aksara HTML" } = $$props;
 
     	$$self.$set = $$props => {
-    		if ("tutur" in $$props) $$invalidate(0, tutur = $$props.tutur);
+    		if ("latin" in $$props) $$invalidate(0, latin = $$props.latin);
     	};
 
-    	return [tutur];
+    	return [latin];
     }
 
     class Component extends SvelteElement {
     	constructor(options) {
     		super();
-    		init(this, { target: this.shadowRoot }, instance, create_fragment, safe_not_equal, { tutur: 0 });
+    		init(this, { target: this.shadowRoot }, instance, create_fragment, safe_not_equal, { latin: 0 });
 
     		if (options) {
     			if (options.target) {
@@ -1525,15 +1525,15 @@
     	}
 
     	static get observedAttributes() {
-    		return ["tutur"];
+    		return ["latin"];
     	}
 
-    	get tutur() {
+    	get latin() {
     		return this.$$.ctx[0];
     	}
 
-    	set tutur(tutur) {
-    		this.$set({ tutur });
+    	set latin(latin) {
+    		this.$set({ latin });
     		flush();
     	}
     }
