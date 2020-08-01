@@ -1,5 +1,6 @@
 {
-  "name": "aksara-jawa",
+  "name": "@sajenid/aksara-jawa-html",
+  "version":"1.0.0-beta",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -15,7 +16,11 @@
     "svelte": "^3.0.0"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "aksara-jawa",
+    "aksara-jawa-html",
+    "custom-html-element",
+    "web-components"
   ],
   "files": [
     "src",
