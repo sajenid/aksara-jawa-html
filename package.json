@@ -1,5 +1,5 @@
 {
-  "name": "SvelteComponent",
+  "name": "aksara-jawa",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^6.0.0",
+    "@sajenid/aksara.js": "^1.0.0-beta.2",
     "rollup": "^1.20.0",
     "rollup-plugin-svelte": "^5.0.0",
     "svelte": "^3.0.0"
