@@ -17,7 +17,7 @@ Import script `dist`
 <script defer src="dist/index.mjs"></script>
 ```
 
-Lalu pakai tag `<aksara-jawa>` di dokument HTML
+Lalu pakai tag `<aksara-jawa>` di dokumen HTML
 
 ```html
 <aksara-jawa latin="saksi mata"/>
